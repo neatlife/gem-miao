@@ -6,5 +6,13 @@ module Miao
 			"hello, miao!!!"
 		end
 	end
+
+	module Inner
+		class Dog
+			def hi
+				"hi."
+			end
+		end
+	end
   # Your code goes here...
 end
