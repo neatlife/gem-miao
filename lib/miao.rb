@@ -1,8 +1,10 @@
 require "miao/version"
 
 module Miao
-	def say
-		"hello, miao!!!"
+	class Cat
+		def say
+			"hello, miao!!!"
+		end
 	end
   # Your code goes here...
 end
